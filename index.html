@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- My JS  -->
+    <script type="text/javascript" src="main.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio Bogdan Struk</title>
+
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-5 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-7 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a
+                >
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link">Projects</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#skills" class="text-white navigation-link"> Skills</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#social" class="text-white navigation-link">Social</a
+              >
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+
+    <div class="main-container container-fluid">
+      <div class="row main_row ">
+        <div class="col-6 p-0">
+            <img
+              src="images/avatarhi.png"
+              class=""
+            />
+        </div>
+        <div class="col-6 ">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="text-warning m-heading">Bogdan Struk.</h1>
+          <h2 class="text-white">Web Developer</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- About me -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-xl-6 col-sm-12 d-flex justify-content-center">
+          <img src="./images/avatarthinking.png" class="img-fluid" />
+        </div>
+        <div class="col-xl-6 col-sm-12 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">A little bit about me</h1>
+          <p>
+            My name is Bogdan, and I am from Ukraine even though I currently live in Spain.
+          </p>
+          <br/>
+          <p>
+            I have studied a degree related to computer system management, where I have discovered that my real passion is programming
+          </p>
+          <br/>
+          <p>
+            In my free time I like to play video games and ride the bike, and skate.
+            I'm very curious and I always feel like learning new things
+          </p>
+          <button class="btn btn-outline-warning">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- My Projects -->
+
+    <div id="projects" class="container mt-5 pt-5 ">
+      <h1 class="text-warning mb-3 pb-2 media-text-center">My Projects</h1>
+      <div class="row">
+
+        <div class="col-xl-4 col-sm-12 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/iamvegan.jpg"
+              class="card-img-top "
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">I am vegan</h5>
+              <p class="card-text">
+                3D level I made with friends, about creating your own farm in space
+              </p>
+              <a href="https://vimeo.com/488935643" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12 mb-5 d-flex justify-content-center ">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/flowerpot.png"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Automate Watering</h5>
+              <p class="card-text">
+                Development of an automate watering system, made with Raspberry Pi & Arduino
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/laravel.png"
+              class="card-img-top card-image-square"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Laravel</h5>
+              <p class="card-text">
+                Work in progress...
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- IT Skills -->
+    <div id="skills" class="container mt-5 pb-5 ">
+      <h1 class="text-warning mb-3 pb-2 media-text-center">My IT Skills</h1>
+      <div class="row pt-2">
+        <div class="col-md-6 col-sm-12">
+          <h2 class="text-white">Programming</h2>
+
+          <div class="p-3">
+            <h5 class="text-white">PHP (laravel)</h5>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="p-3">
+            <h5 class="text-white">JavaScript</h5>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="p-3">
+            <h5 class="text-white">Python</h5>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="p-3">
+            <h5 class="text-white">Java</h5>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="p-3">
+            <h5 class="text-white">Powershell && Bash </h5>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12">
+          <h2 class="text-white ">Others</h2>
+          <div class="p-3">
+            <h5 class="text-white">HTML5 && CSS (Bootstrap)</h5>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="p-3">
+            <h5 class="text-white">SQL</h5>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="p-3">
+            <h5 class="text-white">Forensic Analysis && Ethical Hacking</h5>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="p-3">
+            <h5 class="text-white">Network Security && High Aviability</h5>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="p-3">
+            <h5 class="text-white">Raspberry Pi && Arduino</h5>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Personal Skills -->
+    <div id="personalSkills" class="container mt-5 pb-5 ">
+      <h1 class="text-warning mb-3 pb-2 media-text-center">My Personal Skills</h1>
+      <div class="row p-t2 d-flex justify-content-around">
+
+        <div class="col-md-3 col-sm-6">
+          <img src="images/rocket.png" class="img-fluid">
+          <p class="text-white text-center pt-3">
+            <b class="text-warning">ambitious</b> person, and never have enough knowledge
+          </p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <img src="images/good.png" class="img-fluid">
+          <p class="text-white text-center pt-3">
+            the work has to be <b class="text-warning">well done</b>
+          </p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <img src="images/innovation.png" class="img-fluid">
+          <p class="text-white text-center pt-3">
+            <b class="text-warning">fast learning</b>, and never give up
+          </p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <img src="images/leadership.png" class="img-fluid">
+          <p class="text-white text-center pt-3">
+            fresh thinking, and <b class="text-warning">leadership</b>
+          </p>
+        </div>
+
+
+      </div>
+    </div>
+
+    <!-- Social Media -->
+    <div id="social" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning text-center">Social Media</h4>
+        <h1 class="m-heading text-center">Check out my social media</h1>
+
+        <div class="row pt-5 d-flex justify-content-center">
+
+          <div class="col-3 media_link btn" onclick="myhref('linkedin.com/in/bogdan-struk-33265b1a3/')">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">LinkedIn</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div  class="col-3 media_link btn" onclick="myhref('github.com/bogdddy/')">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white"> Github </h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
